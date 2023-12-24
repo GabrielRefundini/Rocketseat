@@ -1,0 +1,115 @@
+/*Reset CSS */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+body{
+    background: url("/assets/bg.png"), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    height: 100vh;
+}
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+    padding: 2.5rem 4.5rem;
+}
+
+.nav-link {
+    color:#C4C4CC;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link:hover {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.nav-link.active {
+	color: #FFF;
+	font-weight: 700;
+}
+#home-page {
+        
+        place-content: center;
+        align-items: center;
+        /* margin: auto auto; */
+        margin: 9.5rem auto;
+        color: white;
+}
+#other-page{
+    margin-top: 4rem;
+    text-align: left;
+}
+.content {
+    display: flex;
+    color: white;
+}
+h1 {
+    font-size: 3rem;
+    font-style: 700;
+}
+p {
+    width: 40.5rem;
+    text-align: left;
+    color: #E1E1E6;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+    font-style: 400;
+}
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    padding: 2.5rem 2.5rem 4.5rem;
+}
+
+.btn {
+    text-decoration: none;
+    align-self: center;
+
+    color: white;
+    
+    justify-content: center;
+
+    margin-top: 1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+
+    padding: 0.75rem 2rem;  
+
+    border-radius: 0.3rem;
+    border: 2px solid #FFF;
+
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-weight: 700;
+
+}
+
+.btn:hover {
+    border-radius: 0.3125rem;
+    border: 2px solid #FFF;
+    color: #02799D;
+    background: #FFF;
+}
+section {
+    padding: 0rem 6.3rem;
+}
