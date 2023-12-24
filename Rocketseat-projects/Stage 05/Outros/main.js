@@ -1,0 +1,29 @@
+const randomNumber = Math.round(Math.random()*10)
+console.log(randomNumber)
+let xAttempts = 1
+
+function handleClick(e){
+    e.preventDefault();
+
+    const inputNumber = document.querySelector("#inputNumber")
+
+    if(Number(inputNumber.value) == randomNumber){
+        document.querySelector(".screen1").classList.add("hide")
+        document.querySelector(".screen2").classList.remove("hide")
+
+        document.querySelector(".screen2 h2").innerText = `Acertou em ${xAttempts} tentativas`;
+    }
+    xAttempts++
+}
+
+function bruteForce(e){
+    e.preventDefault();
+    handleClick(e)
+     // Seleciona o botão pelo ID
+  const meuBotao = document.getElementById("meuBotao");
+    for (i = 0; i < 11; i++){
+        console.log(i)
+        document.querySelector("#inputNumber").value = i
+        meuBotao.click();
+    }
+}
