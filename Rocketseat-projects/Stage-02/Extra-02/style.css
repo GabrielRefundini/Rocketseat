@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    /* font-size: 62.5%; */
+}
+:root {
+    --bg: #2C2B3D;
+    --highlight: #00BFA6;
+    --textPrimary: #FFFFFF;
+    --textSecundary: #C2C2C2;
+    /* font-family: 'JetBrains Mono', monospace;
+    font-family: 'Open Sans', sans-serif;    */
+
+}
+body {
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 4.4rem 6.3rem;
+}
+nav ul {
+    display: flex;
+    gap: 4rem;
+}
+nav ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--textPrimary);
+    font-family: JetBrains Mono;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+a:hover {
+    color: var(--textSecundary);
+
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 6.2em 9.8em;
+    gap: 5rem;
+}
+h1 {
+    color: var(--textPrimary);
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem; /* 111.111% */
+    padding-bottom: 3.7rem;
+}
+span {
+    color: var(--highlight);
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem; /* 111.111% */
+}
+
+p{
+    width: 37.75rem;
+    color: var(--textSecundary);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+
+}
+p + p {
+    padding-top: 1.5rem;
+}
+
+#locker {
+    position: fixed;
+    bottom: 1.25rem;
+    left: 1.25rem;
+}
+.line {
+    width: 35.5rem;
+    height: 0.0625rem;
+    background: #00BFA6;
+    margin: auto;
+}
+
+
+footer p{
+    padding-top: 1.7rem;
+    padding-bottom: 1.25rem;
+    margin: auto;
+    color: var(--textPrimary);
+
+    font-family: JetBrains Mono;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; /* 200% */
+}
