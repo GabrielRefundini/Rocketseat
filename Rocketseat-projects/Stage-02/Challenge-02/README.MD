@@ -1,6 +1,6 @@
 # Explorer Stage 02 Challenge 02
 
-Treine.me is a simple page to pratice the bases.
+Treine.me is a simple page to practice the bases.
 
 ## Tecnologies used
 - HTML
