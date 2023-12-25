@@ -17,7 +17,7 @@ Here is a list of some skills I was able to learn while completing this project:
 Positioning an element in the page using the fixed position in CSS.
 
 
-## Demonstração
+## Screenshot
 ![Screenshot](https://github.com/GabrielRefundini/Rocketseat/assets/52221116/60b1f0a8-e22c-466a-a463-b2d6e036979a)
 
 

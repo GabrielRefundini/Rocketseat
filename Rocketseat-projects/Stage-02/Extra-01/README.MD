@@ -13,7 +13,7 @@ Here is a list of some skills I was able to learn while completing this project:
 - Positioning and alignment of elements on the screen
 
 
-## Demonstração
+## Screenshot
 ![Screenshot](https://github.com/GabrielRefundini/Rocketseat/assets/52221116/a73af0a4-2374-4dfb-8dbb-00c7de1725ed)
 
 

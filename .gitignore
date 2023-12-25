@@ -1,0 +1,10 @@
+# Temporary Files
+*.tmp
+
+# Node Modules Directory
+/Rocketseat-projects/Stage-06/SPAUniverse/node_modules/
+/Rocketseat/Rocketseat-projects/Stage-06/ConceitosDeSPA/node_modules
+
+# Operational Sistem Config Files
+.DS_Store
+Thumbs.db
