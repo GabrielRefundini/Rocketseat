@@ -18,7 +18,8 @@ Positioning an element in the page using the fixed position in CSS.
 
 
 ## Screenshot
-![Screenshot](https://github.com/GabrielRefundini/Rocketseat/assets/52221116/60b1f0a8-e22c-466a-a463-b2d6e036979a)
+![Screenshot](https://github.com/GabrielRefundini/Rocketseat/assets/52221116/0a50f95e-9c6d-4878-b663-c2300a625310)
+
 
 
 
