@@ -10,8 +10,8 @@ router.handle()
 window.onpopstate = () => router.handle();
 window.route = () => router.route();
 
-    const ko = "/universo";
-    const elNavLinks = document.querySelectorAll("a");
+    // const ko = "/universo";
+    // const elNavLinks = document.querySelectorAll("a");
 
     
     

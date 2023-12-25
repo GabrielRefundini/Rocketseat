@@ -37,6 +37,4 @@ export class Router {
         elPath.classList.toggle('active');
     
     }
-
-        
     }
